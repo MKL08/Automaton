@@ -8,3 +8,7 @@ This project is part of the material of the book
    David J. Barnes and Michael Kölling
 
 It is discussed in chapter 7.
+
+****Answers****
+27.The same patterns emerges after reseting.
+28.It brings it back to it's original state after each reset.
