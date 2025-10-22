@@ -68,4 +68,18 @@ public class Automaton
         // Seed the automaton with a single 'on' cell.
         state[numberOfCells / 2] = 0;
     }
+    
+    public void calculateNextState()
+    {
+        int left= 0;
+        int center= state [0];
+        int[] nextState = new int[state.length];
+        for (int i=0;i<numberOfCells;i++)
+        {
+          int right=state [i+1];
+          nextState[i]=calculateNextState(left,center,right);
+          left=center;
+          center= right;
+        }
+    }
 }
