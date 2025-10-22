@@ -13,3 +13,4 @@ It is discussed in chapter 7.
 27.The same patterns emerges after reseting.
 28.It brings it back to it's original state after each reset.
 29.At first, after changing the state, it was normal. Unitl you use the reset method. Nothing appears.
+31.NextState is used to used of the NEXT step of the instruction.
